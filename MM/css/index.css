@@ -1,0 +1,513 @@
+/* 页头 */
+header{
+    position: relative;
+    height: 42px;
+    /* background-color: pink; */
+    padding-left: 210px;
+}
+header img{
+    height: 100%;
+}
+header a:nth-of-type(1){
+    float: left;
+    height: 100%;
+    margin-right: 40px;
+}
+header .hd .hd_1{
+    float: left;
+}
+header .hd .hd_2{
+    float: right;
+    line-height: 21px;
+    padding-top: 10px;
+    margin-right: 200px;
+}
+header .hd .hd_2 a:nth-of-type(1){
+    margin-top: 2px;
+    font-size: 14px;
+    color: #464646;
+}
+header .hd .hd_2 a:nth-of-type(1):hover{
+    color: red;
+}
+header .hd .hd_2 a:nth-of-type(1)::before{
+    content: '';
+    display: inline-block;
+    height: 35px;
+    width: 19px;
+    height: 18px;
+    background: url(../images/hd2.png) no-repeat -35px -6px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+header .hd .hd_2 a:nth-of-type(2){
+    font-size: 14px;
+    color: #464646;
+}
+header .hd .hd_2 a:nth-of-type(2):hover{
+    color: red;
+}
+header .hd .hd_2 a:nth-of-type(2) span{
+    margin-left: 5px;
+}
+header .hd_3 {
+    position: absolute;
+    top: 9px;
+    left: 336px;
+    display: none;
+    width: 830px; 
+    z-index: 2;
+}
+header .hd_3 img {
+    width: 100%;
+}
+
+/* <!-- 【1.2腾讯游戏】 --> */
+.games {
+    display: none;
+    position: absolute;
+    top: 42px;
+    left: 615px;
+    z-index: 6;
+    background-color: #fff;
+    /* height: 300px; */
+    width: 700px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.games .gam {
+    float: left;
+    margin-left: 12px;
+}
+.games .gam:first-child{
+    margin-left: 0;
+}
+.gam  h3 em {
+    content: '';
+    background: url(../images/hd2.png);
+    background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    right: 35px;
+    position: absolute;
+    /* opacity: .1; */
+}
+.gam  h3 a{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 20px;
+    /* background-color: aquamarine; */
+}
+.gam ul li {
+    position: relative;
+    width: 200px;
+    /* height: 90px; */
+    margin: 20px 0px;
+    line-height: 18px;
+    transition: all 1s ease;
+}
+.gam ul li p {
+    width: 100%;
+    padding-left: 20px;
+    display: block;
+    line-height: 16px;
+}
+.gamad {
+    display: none; 
+}
+.gamaa {
+    /* display: none !important; */
+    position: absolute;
+    /* bottom: -74px; */
+    bottom: 0;
+    left: 0;
+    height: 28px;
+    display: flex;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.gam ul li img {
+    /* display: none; */
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+}
+.gamaa a {
+    /* display: none; */
+    width: 100px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 28px;
+}
+.gam ul li span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    background-color: #c62828;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+}
+
+
+
+
+
+
+main {
+    display: flex;
+}
+/* 侧边栏 */
+.zuo {
+    width: 180px;
+    height: 2700px;
+    background-color: #232323;
+    float: left;
+}
+.box1 {
+    width: 180px;
+    height: 100%;
+    background:url(../img/spr-all.png) no-repeat ;
+    background-position:-185px 0 ;  
+    text-align: center;
+}
+/* 标题 */
+.logo {   
+    padding: 50px 20px ; 
+}
+.logo a {
+    display: block;
+    width: 100%;
+    height: 47px ;
+    background:url(../img/spr-all.png) no-repeat ;
+    background-position:0 0 ;  
+}
+.box2,.box3 {
+    width: 100%;
+    height: 70px ;
+    background:url(../img/spr-all.png) no-repeat ;
+    background-position:0 -47px ;  
+}
+.box2:hover {
+    opacity: 0.8;
+}
+.box3:hover {
+    opacity: 0.8;
+}
+.cate {
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+}
+.sn {
+    border-bottom:2px solid #cf9f3c ;
+}
+.sn a{
+    color:#cf9f3c ;
+}
+
+.box ul li a:hover {
+    color:#cf9f3c ;
+}
+
+.er > div {
+    position: relative;
+}
+ .xian {
+    position: absolute;
+    width: 100%;
+    top:40px ;
+    border-bottom:2px solid #cf9f3c ;
+    display:none; 
+}
+.xyi {
+    border-bottom:2px solid #cf9f3c ;
+    display: block;
+}
+    
+ .box1 a:hover {
+    color:#cf9f3c ;
+}
+.tusi li a {
+    display: block;
+    width: 100%;
+    height: 70px ;
+    background:url(../img/spr-all.png) no-repeat ; 
+    z-index: 99999;
+}
+.tusi li :hover {
+    /* background: #fff; */
+    opacity: 0.45;
+   
+}
+.erweima img {
+    width: 120px;
+    height: 120px;
+    margin:20px 30px ;
+}
+.tu1 {
+    width: 150px;
+    margin-right:5px ;
+    margin-top:10px ;
+}
+.tu1:hover {
+    opacity: 0.8;
+}
+/* 主体 */
+.you {
+    flex:1;
+    float: right;
+    height: 1135px;
+    background:url(../img/bigbg.jpg) no-repeat ;
+}
+.headers {
+    width: 100%;
+    height: 58px;
+    /* padding-top: 90px ; */
+    margin-left:140px ;
+    position: sticky;
+    top: -1px;
+    left: 0;
+    
+}
+/* 标题 */
+.you h1 {
+    margin: 90px 0 0 140px ;
+    width: 100%;
+    height: 88px;
+    background:url(../img/spr-all.png) no-repeat ; 
+    background-position:-403px -1px ;  
+}
+/* 导航栏 */
+.nva {
+    margin-top:35px ;
+    width: 760px;
+    height: 58px;
+    line-height: 58px;
+}
+.nva li {
+    float: left;
+    width: 151px;
+    height: 58px;   
+} 
+.nva li a { 
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #f0f2f2;
+    border-right: 1px solid #e1e1e1;
+    font-size: 15px;
+}
+
+/* 内容 */
+.article {
+    width: 895px;
+    height: 480px;
+    padding-top:40px  ;
+    padding-left: 140px;
+}
+.lw {
+    width: 360px;
+    float: left;
+}
+ h2 {
+    width: 360px;
+    height: 60px;
+    font-size: 38px;
+    color: #40c7aa;
+    margin-bottom:8px ;
+}
+.lw p {
+    font-size: 13px;
+    width: 360px;
+    height: 151px;
+    text-indent:2em;
+}
+/* 游戏历程图 */
+.ln img{
+    width: 377px;
+    height: 222px;
+    float:right ;
+}
+.licheng {
+    width: 100%;
+    height: 40px;
+    background:url(../img/timeline.png) no-repeat ;
+    background-position:43px 0 ; 
+    margin-top:30px ;
+    padding-top:40px ;
+    /* margin-left: 20px;  */
+    font-size: 12px;
+}
+.licheng ul li {
+    float: left;
+    width: 16.6%;
+    text-align: center;
+} 
+.licheng ul li i {
+    display: block;
+   color: #40c7aa;
+}
+/* 世界描述 */
+.shijie {
+    width: 895px;
+    height: 383px;
+    padding-left: 140px;
+    padding-top:40px ;
+}
+.shiping {
+    float: left;
+    width: 377px;
+    height: 222px;
+    background:url(../img/v2.png) no-repeat;
+    background-position:120px 95px; 
+}
+.wuxia {
+    width: 360px;
+    height: 226px;
+    float: right;
+    font-size: 13px;
+    color: snow;
+    line-height: 22px;
+} 
+/* 门派介绍  */
+.menpai {
+    width: 760px;
+    height: 360px;
+    margin-left: 140px;
+    margin-top: 40px;
+    border-bottom:1px dashed #dcdcdc ;
+}
+.menpai div {
+    width:359px;  
+    float: left;
+    font-size: 13px;
+    line-height: 22px;
+}
+.menpai img {
+    float: right;
+}
+.menpai div p {
+    margin:8px 0 ;
+}
+/* 江湖百业 */
+.jianghu {
+    /* overflow: hidden; */
+    height: 450px;
+    margin-top: 40px;
+    border-bottom:1px dashed #dcdcdc ;
+    position: relative;
+    padding-left:100px ;
+    
+}  
+.lunbo {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    
+}
+.lunbo ul {
+    width: 5200px;
+    position: absolute;
+    left: 0;
+}
+.lunbo ul li {
+    width: 400px;
+    float: left;
+}
+
+.lunbo ul li img {
+    width: 400px;
+    height: 400px;
+}
+
+.anniu1 {
+    display:block;
+    width: 36px;
+    height: 36px;
+    background:url(../img/icon.png) no-repeat;
+    background-position:0 0; 
+    position: absolute;
+    top: 340px;
+    left: 140px;
+}
+.anniu2 {
+    display:block;
+    width: 36px;
+    height: 36px;
+    background:url(../img/icon.png) no-repeat;
+    background-position:-123px 0 ; 
+    position: absolute;
+    top: 340px;
+    left: 223px;
+}
+
+.jianghu .jieshao {
+    width:359px;  
+    font-size: 13px;
+    line-height: 22px; 
+    position: absolute;
+    top: 90px;
+    left: 540px;
+}
+.jianghu .jieshao p {
+    margin:8px 0 ;
+}
+
+
+
+
+
+
+
+
+
+/* 盟会介绍 */
+.menghui {
+    width: 781px;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.menghui div {
+    width:359px;  
+    float: left;
+    font-size: 13px;
+    line-height: 22px;
+}
+.menghui div p {
+    margin:8px 0 ;
+}
+/* 页尾 */
+footer {
+    position: absolute;
+    top:2700px ;
+    height: 112px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    font-size :12px ;
+    text-align: center;
+    line-height: 20px;
+    padding-top:28px ;
+}
+.wrap a {
+    color: #fff;
+    font-size :12px ;
+}

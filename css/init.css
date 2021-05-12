@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input {
+  font-family: Microsoft YaHei;
+  border: none;
+  outline: none;
+}
+
+body {
+  background-color: #fff;
+  font: 12px/1.5 Microsoft YaHei;
+  color: #666;
+}
+
+.hide,
+.none {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  clear: both;
+  display: block;
+  content: ".";
+  height: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?wgm4ij");
+  src: url("../fonts/icomoon.eot?wgm4ij#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?wgm4ij") format("truetype"),
+    url("../fonts/icomoon.woff?wgm4ij") format("woff"),
+    url("../fonts/icomoon.svg?wgm4ij#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.w {
+  width: 1200px;
+}

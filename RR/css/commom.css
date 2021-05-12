@@ -1,0 +1,438 @@
+/* 页头部分开始 */
+.w {
+    margin: 0 auto;
+    width: 1300px;
+}
+
+body {
+    background-color: #e8eaec;
+}
+
+.header {
+    background: #ffffff;
+}
+
+.header ul {
+    margin: 0 auto;
+    width: 1280px;
+    height: 41px;
+    line-height: 41px;
+}
+
+.header li {
+    float: left;
+}
+
+.header .bigph1 a {
+    position: relative;
+    z-index: 999;
+    display: inline-block;
+    width: 230px;
+    height: 41px;
+}
+
+.header .bigpic {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 28%;
+    width: 970px;
+    height: 185px;
+}
+
+.header .bigpic a {
+    display: inline-block;
+    width: 970px;
+    height: 185px;
+}
+
+#bigph {
+    position: absolute;
+    z-index: 99;
+}
+
+.bigph img {
+    width: 100%;
+}
+
+h1 {
+    z-index: 99;
+    position: relative;
+    margin-left: 200px;
+    width: 150px;
+    height: 41px;
+    font-size: 0px;
+    background: url(../imges/logo1.png) no-repeat center;
+    background-size: 150px 41px;
+}
+
+.header .sprite {
+    cursor: pointer;
+    position: relative;
+    float: right;
+    font-weight: 400;
+    color: #464646;
+    height: 41px;
+    line-height: 41px;
+    font-size: 16px;
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.sprite::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    background: url(../imges/sprite.png) no-repeat;
+    background-position: -30px 0;
+}
+
+.header .paihang {
+    margin-right: 100px;
+    position: relative;
+    cursor: pointer;
+    float: right;
+    height: 41px;
+    line-height: 41px;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+.header .paihang::after {
+    content: "";
+    background: url(../imges/sprite.png);
+    background-position: 0 0;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    right: -24px;
+    position: absolute;
+    opacity: 0.1;
+    transform: rotate(90deg);
+}
+
+#big-ph {
+    position: absolute;
+    top: 41px;
+    left: -140px;
+    display: none;
+}
+
+
+/* 页头部分结束 */
+
+
+/* 公共样式部分开始 */
+
+.bg {
+    width: 100%;
+    background-color: #e8eaec;
+    background: url(../imges/bg20170524.jpg) no-repeat 50% 0;
+    padding: 0 0 80px;
+    text-align: center;
+}
+
+.bg .headen {
+    margin: 0 auto;
+    width: 1280px;
+    height: 380px;
+    position: relative;
+}
+
+.bg .headen p {
+    position: absolute;
+    top: 245px;
+    right: -53px;
+    width: 418px;
+    height: 116px;
+    background-image: url(../imges/slogn-home\ \(1\).png);
+}
+
+.bg .headen h2 {
+    font-size: 0px;
+    width: 191px;
+    height: 61px;
+    background: url(../imges/nav-copy.png) no-repeat 0 0;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.bg .liebiao {
+    float: right;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bg .liebiao dl {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.bg .liebiao dd {
+    margin-top: 5px;
+}
+
+.bg .liebiao .dt1 {
+    font-size: 5px;
+    font-weight: normal;
+    color: #aaa8a8;
+    margin-bottom: 2px;
+}
+
+.bg .liebiao dt {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* 中间部分开始 */
+.content .main .label {
+    position: relative;
+    /* overflow: hidden; */
+    height: 71px;
+    background-image: url(../imges/eventsspr.png);
+
+}
+
+.content .main .label h2 {
+    position: absolute;
+    top: 19px;
+    left: 29px;
+    text-indent: -9999px;
+    width: 238px;
+    height: 30px;
+    background: url(../imges/eventsspr.png) no-repeat -2px -496px;
+}
+
+.content .main .label p {
+    font-size: 15px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    height: 21px;
+    color: #bbbbbb;
+}
+
+.content .main .label p i {
+    color: #bbbbbb;
+}
+
+.content .main .mdnav {
+    position: absolute;
+    top: 422px;
+    left: 650px;
+    height: 71px;
+    font-size: 15px;
+
+}
+
+.content .main .mdnav a {
+    display: inline-block;
+    color: #cbcbcb;
+    width: 125px;
+    height: 71px;
+    line-height: 71px;
+}
+
+.content .main .mdnav .cur {
+    background-color: #2fc3a2 !important;
+    color: #fff !important; 
+}
+
+/* tab栏结束 */
+.mainpart ul {
+    display: none;
+    overflow: hidden;
+}
+.mainpart .cur{
+    display: block;
+}
+.mainpart ul li {
+    overflow: hidden;
+    float: left;
+    width: 312px;
+    height: 277px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.mainpart ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.mainpart .innerbox {
+    position: relative;
+    height: 278px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.mainpart .innerbox .smallcot {
+    text-align: left;
+    font-size: 12px;
+    height: 278px;
+}
+
+.mainpart .innerbox .smallpit img {
+    width: 100%;
+}
+
+.mainpart .innerbox .smallcot h3 {
+    margin-top: 15px;
+    margin-left: 18px;
+    font-size: 18px;
+    color: #01a89a;
+    font-weight: normal;
+
+}
+
+.mainpart .innerbox .smallcot em {
+    position: relative;
+    margin-left: 18px;
+    color: #b4b4b4;
+}
+
+.mainpart .innerbox .smallcot p {
+    padding: 0 20px;
+    padding-top: 5px;
+    height: 54px;
+    color: #6c6c6c;
+}
+
+.innerbox .inframe {
+    display: block;
+    position: absolute;
+    top: 278px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 6% 7%;
+    text-align: left;
+    background: #2fc3a2;
+    opacity: .9;
+    color: #fff;
+    text-align: center;
+}
+
+.innerbox .inframe strong {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.innerbox .inframe p {
+    margin-top: 120px;
+    text-align: center;
+    font-size: 14px;
+}
+.innerbox .inframe img{
+    margin-top: 46px;
+    width: 55%;
+    height: 62%;
+}
+.mainpart .innerbox:hover .inframe {
+    top: 0;
+    transition: top .2s ease-out 0s;
+}
+.mainpart .innerbox .etp{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: sandybrown;
+    background: url(../imges/eventsspr.png) no-repeat 0px -150px;
+}
+/* 尾部开始 */
+.footer {
+    margin-top: 80px;
+    background-color: #000000;
+}
+
+.footer .foot-top {
+    background-color: #1e2628;
+}
+
+.footer .foot-top .topend {
+    margin: auto;
+    width: 1280px;
+    height: 56px;
+    line-height: 56px;
+    padding-top: 10px;
+}
+
+.footer .foot-top .topend p {
+    text-align: center;
+    color: #4f5f5f;
+    height: 20px;
+    line-height: 20px;
+    font: 12px/20px "微软雅黑", "宋体";
+}
+
+.footer .foot_cpright {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    width: 1200px;
+    height: 205px;
+    margin: 0 auto;
+}
+
+.footer .foot_cpright b {
+    background: url(../imges/nav-copy.png) no-repeat -1473px 0px;
+    float: left;
+    width: 218px;
+    height: 35px;
+    text-indent: -999em;
+    overflow: hidden;
+    margin: 10px 0 0 10px;
+}
+
+.footer .foot_cpright .footer_left span {
+    margin-left: 40px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 109px;
+    height: 35px;
+    background: url(../imges/nav-copy.png) no-repeat -1721px 0;
+}
+
+.footer .footer_right {
+    font: 12px/20px "微软雅黑", "宋体";
+    float: right;
+    width: 682px;
+    list-style: none;
+}
+
+.footer_right p:first-child span {
+    margin: 0 5px;
+}
+
+.footer_right p:nth-child(4) span {
+    margin: 0 5px;
+}
+
+.footer .footer_right p {
+    margin-top: 5px;
+}
+
+.footer .footer_right .end span {
+    margin: 0 4px;
+}
+
+.footer_right p img {
+    vertical-align: text-bottom;
+    margin-right: 4px;
+}
+
+
+/* 公共样式部分结束 */

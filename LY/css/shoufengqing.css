@@ -1,0 +1,388 @@
+/* 轮播 */
+
+.lunbo {
+    width: 799px;
+    height: 300px;
+    background-color: skyblue;
+    position: relative;
+}
+
+#slideBox {
+    width: 799px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+#slideBox .J_slide_list {
+    width: 3600px;
+}
+
+#slideBox .J_slide_list .J_slide_item {
+    width: 799px;
+    height: 270px;
+    float: left;
+}
+
+#slideBox .J_slide_list .J_slide_item img {
+    vertical-align: top;
+}
+
+#slideBox .J_slide_trigger {
+    width: 799px;
+    height: 32px;
+    background: #5a5a5a;
+    position: absolute;
+    bottom: 0;
+}
+
+#slideBox .J_slide_trigger li,
+.J_slide_trigger a {
+    width: 120px;
+}
+
+#slideBox .J_slide_trigger li {
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    _display: inline;
+    overflow: hidden;
+}
+
+#slideBox .J_slide_trigger li a {
+    display: block;
+    height: 32px;
+    color: #979696;
+    font-family: "Microsoft Yahei", "微软雅黑";
+}
+
+#slideBox .J_slide_trigger li.cur a,
+.J_slide_trigger li a:hover {
+    color: #fff;
+    background-color: #2fc3a3;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 50em) {
+    .htmleaf-header {
+        padding: 3em 10% 4em;
+    }
+    .htmleaf-header h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 40em) {
+    .htmleaf-header h1 {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    .htmleaf-header h1 {
+        font-size: 1.2em;
+    }
+}
+
+.lunbo .shuangji {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 150px;
+    height: 27.56px;
+    background: #3a3a3a;
+    font-size: 12px;
+    text-align: center;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.lunbo .shuangji a {
+    display: block;
+    float: left;
+    width: 50%;
+    line-height: 28px;
+    color: #848484;
+}
+
+.lunbo .shuangji .cates {
+    color: #e3e3e3;
+    background: #2fc3a3;
+    cursor: default;
+}
+
+.lunbo2 {
+    display: none;
+    overflow: hidden;
+    width: 799px;
+    height: 300px;
+    /* position: relative; */
+}
+
+.lunbo2 .focus {
+    position: relative;
+    width: 799px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.lunbo2 .focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+}
+
+.lunbo2 .focus ul li {
+    float: left;
+}
+
+.lunbo2 .focus ul li img {
+    width: 799px;
+    height: 300px;
+}
+
+.lunbo2 .circle {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}
+
+.lunbo2 .circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
+}
+
+
+/* 轮播结束 */
+
+.content2 .article2_right .shoufengqin {
+    width: 799px;
+    height: 299px;
+    overflow: hidden;
+    position: relative;
+}
+
+.voice_2 {
+    width: 799px;
+    position: relative;
+    height: 299px;
+}
+
+.voice_2 ul {
+    width: 799px;
+    height: 299px;
+}
+
+.voice_2 ul li {
+    float: left;
+    list-style: none;
+    height: 299px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.voice_2 .fold {
+    width: 68px;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.voice_2 .unfold {
+    width: 392px;
+    height: 100%;
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+}
+
+.voice_2 .li1 .fold {
+    background-position: -408px 0;
+    float: left;
+    width: 68px;
+    height: 100%;
+    background-image: url(../imges/fanstab.jpg);
+    background-repeat: no-repeat;
+}
+
+.voice_2 .li2 .fold {
+    background-position: 0 0;
+    float: left;
+    width: 68px;
+    height: 100%;
+    background-image: url(../imges/fanstab.jpg);
+    background-repeat: no-repeat;
+}
+
+.voice_2 .li3 .fold {
+    background-position: -340px 0;
+    float: left;
+    width: 68px;
+    height: 100%;
+    background-image: url(../imges/fanstab.jpg);
+    background-repeat: no-repeat;
+}
+
+.voice_2 .li4 .fold {
+    background-position: -136px 0;
+    float: left;
+    width: 68px;
+    height: 100%;
+    background-image: url(../imges/fanstab.jpg);
+    background-repeat: no-repeat;
+}
+
+.voice_2 .li5 .fold {
+    background-position: -204px 0;
+    float: left;
+    width: 68px;
+    height: 100%;
+    background-image: url(../imges/fanstab.jpg);
+    background-repeat: no-repeat;
+}
+
+.voice_2 .li6 .fold {
+    background-position: -68px 0;
+    float: left;
+    width: 68px;
+    height: 100%;
+    background-image: url(../imges/fanstab.jpg);
+    background-repeat: no-repeat;
+}
+
+.voice_2 .li7 .fold {
+    background-position: -272px 0;
+    float: left;
+    width: 68px;
+    height: 100%;
+    background-image: url(../imges/fanstab.jpg);
+    background-repeat: no-repeat;
+}
+
+.voice_2 .unfold .qzbox {
+    position: relative;
+    z-index: 1;
+    padding: 20px 0 0;
+    margin: 0 20px;
+    overflow: hidden;
+}
+
+.voice_2 .unfold .qzbox h3 {
+    font-size: 16px;
+    color: #2fc3a2;
+    font-weight: bold;
+    text-align: left;
+}
+
+.voice_2 .unfold .funarea {
+    position: absolute;
+    top: 22px;
+    right: 0;
+    font-size: 13px;
+}
+
+.voice_2 .unfold .funarea a {
+    color: #888;
+}
+
+.voice_2 .unfold .funarea .tojoin i {
+    position: relative;
+    top: -1px;
+    font-size: 12px;
+    margin: 0 0 0 2px;
+}
+
+.voice_2 .unfold .funarea .morer {
+    margin: 0 0 0 20px;
+}
+
+.voice_2 .unfold .funarea .morer i {
+    font-weight: bold;
+}
+
+.voice_2 .unfold .trslider {
+    position: relative;
+    width: 355px;
+    height: 220px;
+    overflow: hidden;
+    margin: 0 20px;
+    margin-top: 13px;
+    z-index: 100;
+}
+
+.voice_2 .unfold .qz-pics {
+    position: relative;
+    margin: 13px 0 13px -12px;
+    overflow: hidden;
+}
+
+.voice_2 .unfold .qz-pics a {
+    display: block;
+    float: left;
+    width: 170px;
+    height: 110px;
+    margin: 0 0 0 20px;
+}
+
+.voice_2 .unfold .qz-pics a img {
+    width: 100%;
+    height: 100%;
+}
+
+.voice_2 .unfold .newslists {
+    float: none;
+    height: 100px;
+    width: 352px;
+    overflow: hidden;
+}
+
+.voice_2 .unfold .newslists .nl-i {
+    position: relative;
+    margin: 0 5px;
+    width: 342px;
+    height: 24.67px;
+}
+
+.voice_2 .unfold .newslists .nl-i a {
+    position: relative;
+    display: block;
+    padding: 3px 50px 3px 0;
+    margin-left: 40px;
+    color: #505050;
+    *width: 265px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    z-index: 2;
+}
+
+.voice_2 .unfold .newslists .nl-i span {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    line-height: 100%;
+    margin-top: -6px;
+    text-align: right;
+    z-index: 1;
+    color: #b1b1b1;
+    overflow: hidden;
+    white-space: nowrap;
+}

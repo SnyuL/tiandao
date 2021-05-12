@@ -1,0 +1,60 @@
+* {
+    /* 把我们所有标签的内外边距清零 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* 盒子大小始终为with */
+}
+
+em,i {
+    font-style: normal;/* em 和 i 斜体文字不倾斜 */
+}
+
+li {
+    list-style: none;/* 去掉 li 的小圆点 */
+    font-weight: 400;
+}
+
+img {
+    border: 0;/* 照顾低版本浏览器，如果 照片外面包含了链接会有边框的问题 */
+    vertical-align: middle; /* 取消照片地测有空白缝隙的问题*/
+}
+
+button,input {
+    border: 0;/* 默认有灰色边框我们需要去掉 */
+    outline: none;/* 去掉蓝色边框 */
+}
+
+a {
+    color: #666; /* 所有a链接 颜色*/
+    text-decoration: none;/* 去掉a链接的下换线 */
+    font-size: 12px;
+}
+/* body a:hover {
+    color: red;
+} */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+.clearfix:after {  
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix { 
+    *zoom: 1;
+} 
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('i../font/confont.woff2') format('woff2'),
+        url('../font/iconfont.woff') format('woff'),
+        url('../font/iconfont.ttf') format('truetype'),
+        url('../font/iconfont.svg#iconfont') format('svg');
+  }
